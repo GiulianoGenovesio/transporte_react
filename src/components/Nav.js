@@ -4,10 +4,10 @@ const Nav = (props) => {
     return(
         <nav>
             <ul className="holder">
-                <li to='/'><Link>Home</Link></li>
-                <li to='/nosotros'><Link>Nosotros</Link></li>
-                <li to='/servicios'><Link>Servicios</Link></li>
-                <li to='/contacto'><Link>Contacto</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/nosotros">Nosotros</Link></li>
+                <li><Link to="/servicios">Servicios</Link></li>
+                <li><Link to="/contacto">Contacto</Link></li>
 
             </ul>
         </nav>
